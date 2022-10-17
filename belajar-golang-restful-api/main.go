@@ -4,12 +4,12 @@ import (
 	"github.com/go-playground/validator/v10"
 	_ "github.com/go-sql-driver/mysql"
 	"net/http"
-	"programmerzamannow/belajar-golang-restful-api/app"
-	"programmerzamannow/belajar-golang-restful-api/controller"
-	"programmerzamannow/belajar-golang-restful-api/helper"
-	"programmerzamannow/belajar-golang-restful-api/middleware"
-	"programmerzamannow/belajar-golang-restful-api/repository"
-	"programmerzamannow/belajar-golang-restful-api/service"
+	"portofolio/belajar-golang-restful-api/app"
+	"portofolio/belajar-golang-restful-api/controller"
+	"portofolio/belajar-golang-restful-api/helper"
+	"portofolio/belajar-golang-restful-api/middleware"
+	"portofolio/belajar-golang-restful-api/repository"
+	"portofolio/belajar-golang-restful-api/service"
 )
 
 func main() {
