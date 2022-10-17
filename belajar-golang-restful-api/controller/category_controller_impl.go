@@ -3,9 +3,9 @@ package controller
 import (
 	"github.com/julienschmidt/httprouter"
 	"net/http"
-	"programmerzamannow/belajar-golang-restful-api/helper"
-	"programmerzamannow/belajar-golang-restful-api/model/web"
-	"programmerzamannow/belajar-golang-restful-api/service"
+	"portofolio/belajar-golang-restful-api/helper"
+	"portofolio/belajar-golang-restful-api/model/web"
+	"portofolio/belajar-golang-restful-api/service"
 	"strconv"
 )
 
