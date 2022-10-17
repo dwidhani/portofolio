@@ -3,8 +3,8 @@ package exception
 import (
 	"github.com/go-playground/validator/v10"
 	"net/http"
-	"programmerzamannow/belajar-golang-restful-api/helper"
-	"programmerzamannow/belajar-golang-restful-api/model/web"
+	"portofolio/belajar-golang-restful-api/helper"
+	"portofolio/belajar-golang-restful-api/model/web"
 )
 
 func ErrorHandler(writer http.ResponseWriter, request *http.Request, err interface{}) {
